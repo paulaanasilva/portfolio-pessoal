@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
-  const { ref } = useSectionInView("About");
+  const { ref } = useSectionInView("Sobre");
 
   return (
     <motion.section
@@ -17,33 +17,16 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
-      </p>
+      <SectionHeading>Sobre mim</SectionHeading>
 
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
-      </p>
+      <p className="mb-3">
+        Sou bacharel em Ciência da Computação e Mestre em Computação Aplicada. Ao longo da minha trajetória acadêmica e profissional, atuei em análise de sistemas, participando de todas as etapas do ciclo de desenvolvimento de software, desde o entendimento do problema junto ao cliente, levantamento e documentação de requisitos, até a entrega da solução, sempre conectando a tecnologia às necessidades reais do negócio.</p>
+
+      <p className="mb-3">
+        Também liderei equipes e projetos, o que fortaleceu minha atuação em gestão de processos e times que utilizam metodologias ágeis, além de uma sólida experiência em automação de processos e no uso estratégico de dados em ambientes corporativos. </p>
+
+      <p className="mb-3">
+        Mais do que desenvolver sistemas, busco criar soluções que façam sentido na prática, sejam sustentáveis ao longo do tempo e gerem impacto real para pessoas e organizações.</p>
     </motion.section>
   );
 }

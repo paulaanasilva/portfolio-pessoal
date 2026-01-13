@@ -2,33 +2,34 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
+import paginaCursoIA from "@/public/paginaCursoIA.png";
+import todososPuzzles from "@/public/todosPuzzles.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
-    name: "Home",
+    name: "Principal",
     hash: "#home",
   },
   {
-    name: "About",
+    name: "Sobre",
     hash: "#about",
   },
   {
-    name: "Projects",
+    name: "Projetos",
     hash: "#projects",
   },
   {
-    name: "Skills",
+    name: "Habilidades",
     hash: "#skills",
   },
   {
-    name: "Experience",
+    name: "Experiência",
     hash: "#experience",
   },
   {
-    name: "Contact",
+    name: "Contato",
     hash: "#contact",
   },
 ] as const;
@@ -62,18 +63,17 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
-    description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+    title: "IA para Negócios: Análise de Dados com RapidMiner",
+    description: "Este curso foi desenvolvido para profissionais que desejam prever vendas, planejar a demanda e antecipar tendências de mercado de forma estratégica, sem a necessidade de aprender programação ou lidar com códigos complexos...",
+    imageUrl: paginaCursoIA,
+    href: "https://www.udemy.com/course/edge-solucoes-em-ia-analise-preditiva-rapidminer/?referralCode=33B4BF4DB338BED260EF", 
   },
   {
-    title: "rmtDev",
+    title: "Avaliação do Pensamento Computacional por Meio de Puzzles Interativos",
     description:
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    imageUrl: todososPuzzles,
+    href: "https://www.udemy.com/course/edge-solucoes-em-ia-analise-preditiva-rapidminer/?referralCode=33B4BF4DB338BED260EF", 
   },
   {
     title: "Word Analytics",
@@ -84,24 +84,17 @@ export const projectsData = [
   },
 ] as const;
 
-export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+export const skillsDataSoft = [
+  "Pensamento analítico",
+  "Tradução de necessidades de negócio em soluções técnicas",
+  "Comunicação",
+  "Liderança",
+  "Resolução estruturada de problemas com foco em impacto",
+] as const;
+
+export const skillsDataHard = [
+  "Análise de sistemas e levantamento de requisitos",
+  "Automação e otimização de processos",
+  "Integração de sistemas e APIs",
+  "Inteligência Artificial aplicada a problemas reais",
 ] as const;
