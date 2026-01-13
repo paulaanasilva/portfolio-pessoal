@@ -25,8 +25,7 @@ export default function About() {
       <p className="mb-3">
         Também liderei equipes e projetos, o que fortaleceu minha atuação em gestão de processos e times que utilizam metodologias ágeis, além de uma sólida experiência em automação de processos e no uso estratégico de dados em ambientes corporativos. </p>
 
-      <p className="mb-3">
-        Mais do que desenvolver sistemas, busco criar soluções que façam sentido na prática, sejam sustentáveis ao longo do tempo e gerem impacto real para pessoas e organizações.</p>
+
     </motion.section>
   );
 }
