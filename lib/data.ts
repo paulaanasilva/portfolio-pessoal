@@ -4,6 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import paginaCursoIA from "@/public/cursoIA.png";
 import todososPuzzles from "@/public/Puzzle.png";
+import imgDesplugado from "@/public/desplug.jpg";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -88,6 +89,13 @@ export const projectsData = [
       "Este projeto apresenta a integração dos minijogos Tangram, Arrastar e Sequência ao CT Puzzle Test Platform.",
     imageUrl: todososPuzzles,
     href: "https://univali-my.sharepoint.com/:b:/g/personal/ana_silva_edu_univali_br1/IQAcdbdY8xrrRbRqy8xUx4mTATwdOQxIROcpyYB7SUzs3SI?e=zPOXuv",
+  },
+  {
+    title: "Desenvolvimento de um jogo desplugado para ensinar grafos",
+    description:
+      "Abordagem para o ensino de teoria dos grafos utilizando um jogo desplugado desenvolvido por meio de um processo de design participativo.",
+    imageUrl: imgDesplugado,
+    href: "https://link.springer.com/article/10.1007/s11423-025-10500-2?",
   },
 ] as const;
 

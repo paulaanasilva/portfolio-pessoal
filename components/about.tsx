@@ -20,7 +20,7 @@ export default function About() {
       <SectionHeading>Sobre mim</SectionHeading>
 
       <p className="mb-3">
-        Sou bacharel em Ciência da Computação e Mestre em Computação Aplicada. Ao longo da minha trajetória acadêmica e profissional, atuei em análise de sistemas, participando de todas as etapas do ciclo de desenvolvimento de software, desde o entendimento do problema junto ao cliente, levantamento e documentação de requisitos, até a entrega da solução, sempre conectando a tecnologia às necessidades reais do negócio.</p>
+        Ao longo da minha trajetória profissional, atuei em análise de sistemas, participando de todas as etapas do ciclo de desenvolvimento de software, desde o entendimento do problema junto ao cliente, levantamento e documentação de requisitos, até a entrega da solução, sempre conectando a tecnologia às necessidades reais do negócio.</p>
 
       <p className="mb-3">
         Também liderei equipes e projetos, o que fortaleceu minha atuação em gestão de processos e times que utilizam metodologias ágeis, além de uma sólida experiência em automação de processos e no uso estratégico de dados em ambientes corporativos. </p>

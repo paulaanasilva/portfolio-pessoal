@@ -54,7 +54,8 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         Olá, sou a
-        <span className="font-bold"> Ana Paula da Silva.</span>
+        <span className="font-bold"> Ana Paula da Silva. </span>
+        <p>Mestre em Computação Aplicada, com especialização em andamento na área de Engenharia de Dados e Inteligência Artificial.</p>
       </motion.h1>
 
       <motion.div
