@@ -10,7 +10,6 @@ type ProjectProps = (typeof projectsData)[number] & { href?: string };
 export default function Project({
   title,
   description,
-  tags,
   imageUrl,
   href,
 }: ProjectProps) {
