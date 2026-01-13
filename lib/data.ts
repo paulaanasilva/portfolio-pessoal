@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import paginaCursoIA from "@/public/cursoIA.png";
-import todososPuzzles from "@/public/todosPuzzles.png";
+import todososPuzzles from "@/public/Puzzle.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -35,60 +35,67 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Mestrado em Computação Aplicada",
+    location: "Blumenau, SC",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Criação de jogos digitais para o desenvolvimento e avaliação do Pensamento Computacional",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2023 - 2025",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Líder de Desenvolvimento de Software",
+    location: "Blumenau, SC",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Planejamento e gestão de projetos de software.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2022 - 2024",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Analista de Sistemas",
+    location: "Blumenau, SC",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Levantamento e análise de requisitos; Definição de microsserviços, APIs REST, modelagem de dados e histórias de usuário.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2021 - 2022",
+  },
+  {
+    title: "Analista de Sistemas",
+    location: "Tijucas, SC",
+    description:
+      "Atuação com suporte funcional e técnico no ERP Oracle EBS (AP, Compras e Recebimento)",
+    icon: React.createElement(CgWorkAlt),
+    date: "2016 - 2021",
+  },
+  {
+    title: "Bacharelado em Ciência da Computação",
+    location: "Itajaí, SC",
+    description: "",
+    icon: React.createElement(LuGraduationCap),
+    date: "2014 - 2019",
   },
 ] as const;
 
 export const projectsData = [
   {
     title: "IA para Negócios: Análise de Dados com RapidMiner",
-    description: "Este curso foi desenvolvido para profissionais que desejam prever vendas, planejar a demanda e antecipar tendências de mercado de forma estratégica, sem a necessidade de aprender programação ou lidar com códigos complexos...",
+    description: "Este curso foi desenvolvido para profissionais que desejam prever vendas, planejar a demanda e antecipar tendências de mercado de forma estratégica...",
     imageUrl: paginaCursoIA,
-    href: "https://www.udemy.com/course/edge-solucoes-em-ia-analise-preditiva-rapidminer/?referralCode=33B4BF4DB338BED260EF", 
+    href: "https://www.udemy.com/course/edge-solucoes-em-ia-analise-preditiva-rapidminer/?referralCode=33B4BF4DB338BED260EF",
   },
   {
     title: "Avaliação do Pensamento Computacional por Meio de Puzzles Interativos",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "Este projeto apresenta a integração dos minijogos Tangram, Arrastar e Sequência ao CT Puzzle Test Platform.",
     imageUrl: todososPuzzles,
-    href: "https://www.udemy.com/course/edge-solucoes-em-ia-analise-preditiva-rapidminer/?referralCode=33B4BF4DB338BED260EF", 
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    href: "https://univali-my.sharepoint.com/:b:/g/personal/ana_silva_edu_univali_br1/IQAcdbdY8xrrRbRqy8xUx4mTATwdOQxIROcpyYB7SUzs3SI?e=zPOXuv",
   },
 ] as const;
 
 export const skillsDataSoft = [
   "Pensamento analítico",
-  "Tradução de necessidades de negócio em soluções técnicas",
   "Comunicação",
   "Liderança",
-  "Resolução estruturada de problemas com foco em impacto",
+  "Resolução de problemas",
 ] as const;
 
 export const skillsDataHard = [
