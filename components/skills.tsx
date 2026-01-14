@@ -31,7 +31,7 @@ export default function Skills() {
     >
       <SectionHeading>Minhas Habilidades</SectionHeading>
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
-        {skillsDataSoft.map((skill, index) => (
+        {skillsDataHard.map((skill, index) => (
           <motion.li
             className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
             key={index}
@@ -50,7 +50,7 @@ export default function Skills() {
 
       <hr className="my-6 w-full border-t border-gray-300 dark:border-gray-700" />
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800 mt-6">
-          {skillsDataHard.map((skill, index) => (
+          {skillsDataSoft.map((skill, index) => (
           <motion.li
             className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
             key={index}

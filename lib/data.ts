@@ -37,7 +37,7 @@ export const links = [
 export const experiencesData = [
   {
     title: "Mestrado em Computação Aplicada",
-    location: "Blumenau, SC",
+    location: "UNIVALI - Itajaí, SC",
     description:
       "Criação de jogos digitais para o desenvolvimento e avaliação do Pensamento Computacional",
     icon: React.createElement(LuGraduationCap),
@@ -45,7 +45,7 @@ export const experiencesData = [
   },
   {
     title: "Líder de Desenvolvimento de Software",
-    location: "Blumenau, SC",
+    location: "Senior Sistemas - Blumenau, SC",
     description:
       "Planejamento e gestão de projetos de software.",
     icon: React.createElement(CgWorkAlt),
@@ -53,7 +53,7 @@ export const experiencesData = [
   },
   {
     title: "Analista de Sistemas",
-    location: "Blumenau, SC",
+    location: "Senior Sistemas - Blumenau, SC",
     description:
       "Levantamento e análise de requisitos; Definição de microsserviços, APIs REST, modelagem de dados e histórias de usuário.",
     icon: React.createElement(CgWorkAlt),
@@ -61,7 +61,7 @@ export const experiencesData = [
   },
   {
     title: "Analista de Sistemas",
-    location: "Tijucas, SC",
+    location: "PBG S/A - Tijucas, SC",
     description:
       "Atuação com suporte funcional e técnico no ERP Oracle EBS (AP, Compras e Recebimento)",
     icon: React.createElement(CgWorkAlt),
@@ -69,7 +69,7 @@ export const experiencesData = [
   },
   {
     title: "Bacharelado em Ciência da Computação",
-    location: "Itajaí, SC",
+    location: "UNIVALI - Itajaí, SC",
     description: "",
     icon: React.createElement(LuGraduationCap),
     date: "2014 - 2019",
@@ -100,15 +100,9 @@ export const projectsData = [
 ] as const;
 
 export const skillsDataSoft = [
-  "Pensamento analítico",
-  "Comunicação",
-  "Liderança",
-  "Resolução de problemas",
+ "Comunicação","Organização","Tradução de Requisitos de Negócio","Visão de Negócio","Trabalho em Equipe","Liderança","Pensamento Analítico","Resolução de Problemas",
 ] as const;
 
 export const skillsDataHard = [
-  "Análise de sistemas e levantamento de requisitos",
-  "Automação e otimização de processos",
-  "Integração de sistemas e APIs",
-  "Inteligência Artificial aplicada a problemas reais",
+  "Análise de Sistemas","Especificação de Requisitos","Documentação Técnica","UML","BPMN","Casos de Uso","Histórias de Usuário","Modelagem de Dados","SQL","PL/SQL","Bancos de Dados Relacionais","Oracle","PostgreSQL","Integração de Sistemas","APIs REST","JSON","XML","ERP","Java","Python","HTML","CSS","Lógica de Programação","Versionamento de Código","Metodologias Ágeis","Scrum","Kanban","Gestão de Backlog","Refinamento de Requisitos","Planejamento de Sprint","Documentação Ágil","Jira","Git","Postman","Swagger","Trello","JasperSoft Studio","Eclipse","SDS","RapidMiner",
 ] as const;
